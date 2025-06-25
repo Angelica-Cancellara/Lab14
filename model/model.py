@@ -83,3 +83,14 @@ class Model:
 
     def getAllNodes(self):
         return self._graph.nodes()
+
+
+#es cammino minimo
+    # def camminoMinimo(self, nodoPartenza, nodoArrivo):
+    #     source = self._idMap[int(nodoPartenza)]
+    #     target = self._idMap[int(nodoArrivo)]
+    #     try:
+    #         self._camminoMinimo = nx.shortest_path(self._graph, source=source, target=target)
+    #     except nx.NetworkXNoPath:
+    #         self._camminoMinimo = []
+    #     return self._camminoMinimo
